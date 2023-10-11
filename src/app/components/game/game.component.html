@@ -1,10 +1,12 @@
 <div class="game">
     <h1 class="game__title">Welcome to Currency Game</h1>
-    <p class="game__rules">Euro on Dollar what do you think this is</p>
+    <p class="game__rules">{{currency.code}} ({{currency.currency}}) to PLN what do you think this is</p>
     <label class="game__input-label" for="input">Enter Currency Value:</label>
-    <input id="input" type="input" class="game__input" placeholder="Currency Value">
-    <button class="game__btn">Check</button>
-    {{getCurrency()}}
+    <input id="input" (change)="setInputValue(input.value)" #input type="number" class="game__input" placeholder="Currency Value">
+    <p [ngClass]="getGuessClass()" class="game__message">{{message}}</p>
+    <button class="game__btn" (click)="check()" >Check</button>
+    <button *ngIf="correct" class="game__btn" (click)="fetchData()">Try Next Currency</button>
+    <p class="game__tries">Tries: {{this.result}}</p>
 </div>
 
 

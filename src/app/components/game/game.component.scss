@@ -13,17 +13,30 @@
     text-align: center;
     padding: 1rem;
   }
+  .game__message{
+    text-align: center;
+    margin: 1rem 0;
+  }
+  .correct-guess {
+    color: green;
+  }
+  .game__tries{
+    text-align: center;
+    margin: 1rem 0;
+  }
+  .incorrect-guess {
+    color: red;
+  }
   .game__btn{
     border-radius: 10rem;
     padding: 1rem;
     border: none;
     font-size: 0.9rem;
-    margin: 0rem 1rem;
     background-color: $btn-color;
     color: $font-color;
     cursor: pointer;
     display: block;
-    margin: auto;
+    margin: 0.5rem auto;
   }
   .game__rules{
     margin: 1rem;
