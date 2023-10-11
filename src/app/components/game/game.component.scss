@@ -1,0 +1,53 @@
+@import "../../../styles";
+
+.game {
+  margin: auto;
+  width: 50%;
+  padding: 1rem;
+  color: $font-color;
+  @media (max-width: 950px) {
+    width: 100%;
+    margin: 3rem auto;
+  }
+  .game__title{
+    text-align: center;
+    padding: 1rem;
+  }
+  .game__btn{
+    border-radius: 10rem;
+    padding: 1rem;
+    border: none;
+    font-size: 0.9rem;
+    margin: 0rem 1rem;
+    background-color: $btn-color;
+    color: $font-color;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+  }
+  .game__rules{
+    margin: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    color: $second-color;
+  }
+  .game__input-label{
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .game__input{
+    background-color: $input-color;
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: $font-color;
+    text-align: center;
+    display: block;
+    margin: 3rem auto;
+    &:focus{
+      outline: none;
+    }
+  }
+}

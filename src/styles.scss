@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anek+Malayalam&family=Anton&family=Averia+Sans+Libre:wght@300&family=Barlow:ital@1&family=Bebas+Neue&family=Bungee+Spice&family=Fira+Sans:wght@200&family=Gloria+Hallelujah&family=Indie+Flower&family=Kufam&family=Mina&family=Montserrat:wght@100;800&family=Noto+Sans&family=Permanent+Marker&family=Philosopher&family=Play&family=Redressed&family=Roboto+Mono:wght@400;500&family=Roboto:ital,wght@0,100;0,400;0,500;1,100&family=Sedgwick+Ave+Display&family=Shadows+Into+Light&family=Supermercado+One&family=Tienne:wght@900&family=Ubuntu:wght@300&family=ZCOOL+QingKe+HuangYou&display=swap');
+$primary-color: #120f57;
+$input-color: #08071e;
+$second-color: purple;
+$bad-answer: red;
+$success-answer: #2dcb2d;
+$font-color:white;
+$btn-color: #28a8b9;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background-color: $primary-color;
+}
