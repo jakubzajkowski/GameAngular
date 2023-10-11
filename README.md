@@ -1,27 +1,31 @@
-# App
+# Currency Guessing Game - Angular Application
+Welcome to the Currency Guessing Game, an interactive web application built with Angular! In this game, you can test your knowledge of currencies by guessing their values in Polish Zloty (PLN). It's a fun and educational way to learn about different currencies from around the world.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.5.
+## Technologies Used
+- Angular: Front-end framework for building interactive web applications.
+- HTML SCSS: Markup and styling for the user interface.
+- TypeScript: Programming language for Angular application development.
+- NBP Api: Application programming interface from used currencies.
 
-## Development server
+## How to Play
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+**Launch the Game:**
+Open your web browser and go to `https://currency-guessing-game.onrender.com`.
 
-## Code scaffolding
+**Gameplay:**
+- You will be presented with a random currency value in PLN.
+- Guess the correct currency (e.g., USD, EUR, GBP) corresponding to the displayed value.
+- Enter your guess in the input field and click the "Submit" button.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+**Feedback:**
+- If your guess is correct, you will receive a positive feedback message.
+- If your guess is incorrect, you will receive a message indicating the correct currency.
 
-## Build
+**Keep Playing:**
+- Continue guessing currencies and test your knowledge!
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Available Online
+The Currency Guessing Game is also available online! You can play the game by visiting https://currency-guessing-game.onrender.com Enjoy the game and challenge your currency knowledge!
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
